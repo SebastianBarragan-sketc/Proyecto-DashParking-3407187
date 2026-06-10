@@ -1,0 +1,50 @@
+.inicio{
+    background-color:#70d2ff;
+    color:white;
+    padding:100px 0;
+}
+
+.logo{
+    max-width:350px;
+}
+
+.servicios{
+    margin-top:20px;
+}
+
+.card{
+    border:none;
+    border-radius:15px;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    transition:0.3s;
+}
+
+@media(max-width:768px){
+
+    .inicio{
+        text-align:center;
+        padding:60px 20px;
+    }
+
+    .logo{
+        max-width:250px;
+        margin-top:20px;
+    }
+
+}
+
+.pie{
+    background-color:#668eca;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+.pie p{
+    margin:0;
+}
+
