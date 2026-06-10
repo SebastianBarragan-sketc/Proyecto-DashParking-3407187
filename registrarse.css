@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+.fondo{
+    min-height:100vh;
+    background-color:#CFE2FF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.registro{
+    background-color:white;
+    width:500px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 2;
+}
+
+.logo{
+    width:120px;
+    display:block;
+    margin:auto;
+    margin-bottom:20px;
+}
+
+.registro h2{
+    text-align:center;
+    color:#000000;
+    margin-bottom:20px;
+}
+
+.campo{
+    margin-bottom:15px;
+}
+
+input, select{
+    width: 100%;
+    pointer-events: auto;
+}
+
+.boton{
+    width:100%;
+}
+
+@media(max-width:768px){
+    .registro{
+        width:90%;
+    }
+}
+
+input.form-control, select.form-select{
+    border: 2px solid #000 !important;
+    box-shadow: none !important;
+}
